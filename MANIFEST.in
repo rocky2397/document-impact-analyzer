@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include CONTRIBUTING.md
+include requirements.txt
+recursive-include document_impact_analyzer/config *.py
+recursive-include examples *.py *.csv *.csv.gz
+recursive-include utils *.py

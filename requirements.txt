@@ -1,0 +1,17 @@
+# Core requirements
+numpy>=1.19.0
+pandas>=1.0.0
+scikit-learn>=0.23.0
+transformers>=4.0.0
+PyPDF2>=2.0.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+plotly>=5.0.0
+wordcloud>=1.8.0
+
+# Optional but recommended for best performance
+langchain>=0.0.200
+langchain-huggingface>=0.0.1
+langchain-chroma>=0.0.1
+pdfplumber>=0.7.0
+torch>=1.9.0

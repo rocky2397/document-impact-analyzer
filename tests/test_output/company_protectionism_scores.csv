@@ -1,0 +1,3 @@
+company,avg_impact_score,avg_sentiment,total_mentions,trend,vulnerability_score,risk_category
+AnotherCo,0.324,-1.0,1,0,0.11814436880248262,Low Risk
+TestCo,0.21600000000000003,-0.5,2,0,0.10901700466527302,Low Risk
