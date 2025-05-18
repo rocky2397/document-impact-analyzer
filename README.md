@@ -123,6 +123,13 @@ python -m examples.quick_test
 
 This will run a simple analysis using the sample data provided and generate basic output to verify functionality.
 
+To run the complete test suite, use the `run_tests.py` script:
+
+```bash
+# From the root directory of the package
+python run_tests.py
+```
+
 ## Data Handling
 
 ### Working with PDF files

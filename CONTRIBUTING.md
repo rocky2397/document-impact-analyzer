@@ -12,14 +12,19 @@ We love your input! We want to make contributing to Document Impact Analyzer as 
 
 We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
 
+To set up a development environment, first fork the repo and create your branch from `main`. Then, install the package in editable mode with all dependencies, including development tools:
+
+```bash
+pip install -r dev-requirements.txt
+```
+
 Pull requests are the best way to propose changes to the codebase. We actively welcome your pull requests:
 
-1. Fork the repo and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+1. If you've added code that should be tested, add tests.
+2. If you've changed APIs, update the documentation.
+3. Ensure the test suite passes.
+4. Make sure your code lints (`flake8 .`).
+5. Issue that pull request!
 
 ## Any contributions you make will be under the MIT Software License
 
@@ -45,7 +50,7 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 * 4 spaces for indentation rather than tabs
 * Use docstrings for all functions, classes, and modules
-* Run `flake8` to check your code style
+* Run `flake8 .` to check your code style.
 
 ## License
 
